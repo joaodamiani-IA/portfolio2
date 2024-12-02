@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor de Sistemas</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>João Vitor</h1>
+            <p>"Transformando ideias em sistemas funcionais"</p>
+            <nav>
+                <a href="#Sobre">Sobre</a>
+                <a href="#Servicos">Serviços</a>
+                <a href="#Portfolio">Portfólio</a>
+                <a href="#Contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="Sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>
+                Meu nome é João Vitor, sou um desenvolvedor em formação, atualmente finalizando meu curso técnico em
+                Desenvolvimento de Sistemas no SENAI. Estou entusiasmado com a minha jornada na tecnologia, onde
+                posso unir criatividade e lógica para construir interfaces atraentes, funcionais e responsivas.
+
+                Embora ainda esteja no início da minha carreira, venho me dedicando intensamente a aprender e aplicar
+                tecnologias modernas como HTML, CSS e JavaScript.
+            </p>
+        </div>
+    </section>
+
+    <section id="Servicos">
+        <div class="container">
+            <h2>Serviços oferecidos</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de sites e sistemas responsivos com tecnologias modernas como React e Vue.js.</p>
+                </div>
+                <div class="card">
+                    <h3>Consultoria em TI</h3>
+                    <p>Assessoria na implementação de soluções tecnológicas para otimizar processos e melhorar a
+                        performance de sistemas.</p>
+                </div>
+                <div class="card">
+                    <h3>Desenvolvimento de Sistemas Personalizados</h3>
+                    <p>Criação de sistemas sob medida para empresas, atendendo às necessidades específicas de automação
+                        e otimização.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Portfolio">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="grid">
+                <div class="project">
+                    <h3>Projeto 1</h3>
+                    <p>Sistema de gestão para empresas, integrando controle financeiro e de estoque.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 2</h3>
+                    <p>Website para restaurante, com sistema de pedidos online e integração com pagamentos.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 3</h3>
+                    <p>Website institucional para uma escola, com design responsivo e sistema de gerenciamento de
+                        conteúdos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contato">
+        <div class="container">
+            <h2>Entre em Contato para mais informações</h2>
+            <p>Você pode me contatar por e-mail ou WhatsApp:</p>
+            <ul>
+                <li><strong>E-mail:</strong> <a href="mailto:joao.damiani@aluno.senai.br">joao.damiani@aluno.senai.br                    </a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/14996742558" target="_blank">Segue o meu WhatsApp </a></li>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/joao_damiani_"target="_blank">@joao_damiani_</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>2024 João Vitor - Desenvolvedor de Sistemas</p>
+        </div>
+    </footer>
+</body>
+
+</html>
